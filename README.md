@@ -77,7 +77,9 @@ The `tools/` directory contains a few useful scripts, this currently includes:
 
 **check_decision.py** - Verify that decisions made by ai reviewer match the actual decision from openreview.net.
 
-**extract_cost** - Extract API cost from aider logs. 
+**code_metrics.py** - Gathers some metrics about the code that the AI scientist wrote to quantify how many changes it did. 
+
+**extract_cost.py** - Extract API cost from aider logs. 
 
 **generate_prompt_from_pdf.py** - Generate prompts from a pdf file that can be used to make AI-S reproduce papers.
 
